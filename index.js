@@ -9,9 +9,13 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(item) 
-
-
+function addToCart(item) {
+var itemObj = {itemName:`${item}`, itemPrice: Math.floor(Math.random()*100)}
+  // console.log(itemObj);
+  cart.push(itemObj);
+}
+  return itemObj.itemName + " has been added to your cart."
+}
 
 function viewCart(){
   if (cart.length === 0) {
