@@ -10,18 +10,6 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-var price = Math.floor(Math.random() * 101);
-cart.push(new Object({
-  "itemName" : item,
-  "itemPrice": price
-}));
-if(cart === undefined){
-  return "Your shopping cart is empty."
-  } else {
-  return `${item} has been added to your cart.`
-  
-  }
-}
 
 
 
