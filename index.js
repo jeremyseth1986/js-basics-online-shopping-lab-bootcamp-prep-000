@@ -56,7 +56,7 @@ function removeFromCart(item) {
 delete cart.item
 
 }
-return cart
+
 
 function placeOrder(cardNumber) {
   // write your code here
