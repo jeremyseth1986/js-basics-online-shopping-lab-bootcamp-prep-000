@@ -54,7 +54,7 @@ for(var i = 0; i < cart.length; i++){
 
 function removeFromCart(item) {
 delete cart.item
-
+return cart
 }
 
 
