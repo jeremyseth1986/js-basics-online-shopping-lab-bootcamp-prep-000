@@ -47,8 +47,8 @@ function viewCart(){
 function total() {
 for(var i = 0; i < cart.length; i++){
  cart[i].itemPrice = total
- return total
   }
+  return total
 }
 
 function removeFromCart(item) {
