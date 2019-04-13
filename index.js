@@ -53,8 +53,10 @@ for(var i = 0; i < cart.length; i++){
 }
 
 function removeFromCart(item) {
-  // write your code here
+delete cart.item
+
 }
+return cart
 
 function placeOrder(cardNumber) {
   // write your code here
